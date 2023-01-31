@@ -4,19 +4,17 @@
 <section class="resume-section" id="about">
   <div class="resume-section-content">
     <h1 class="mb-0">
-      {{site.data.about["first_name"]}}
-      <span class="custom-text">{{site.data.about["last_name"]}}</span>
+      {{site.data.info["firstName"]}}
+      <span class="custom-text">{{site.data.info["lastName"]}}</span>
     </h1>
     <div class="subheading mb-5">
-      {{site.data.about["address"]}}
-      <a href="mailto:{{site.data.about['mail']}}" style="color: #bd5d38">{{site.data.about["mail"}}</a>
+      {{site.data.info["address"]}}
     </div>
-    <p class="lead mb-5">{{site.data.about["about_me"}}</p>
+    <p class="lead mb-5">{{site.data.info["description"]}}</p>
     <div class="social-icons">
 
       {% for item in site.data.contact%}
       <a class="social-icon" href="{{item.link}}" target="_blank"><i class="{{item.icon}}"></i></a>
-
       {% endfor %}
 
     </div>

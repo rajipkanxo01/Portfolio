@@ -1,7 +1,8 @@
-first_name: Rajib
-last_name: Paudyal
-address: Sonderbrogade  · (+45) 91404647 ·
-mail: pdlrajip12@gmail.com
-about_me: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-  aliquip ex ea commodo consequat.
+- contact: Sonderbrogade 31B, Horsens 8700
+  icon: fa-solid fa-location-dot icon
+
+- contact: pdlrajip12@gmail.com
+  icon: fa-sharp fa-solid fa-inbox icon
+
+- contact: 91404647
+  icon: fa-solid fa-phone icon
